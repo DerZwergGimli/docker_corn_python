@@ -1,0 +1,2 @@
+* * * * * echo "Hallo" >> /home/hallo.log 2>&1
+* * * * * /usr/bin/python3 /home/python/viessmannAPI/python_viessmanapi.py -r >> /home/cornpytask.log 2>&1
