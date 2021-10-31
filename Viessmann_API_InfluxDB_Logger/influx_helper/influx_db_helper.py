@@ -60,7 +60,7 @@ def write_viessmann_data_to_influx_db(inlfux_db_file_path: str, json_viessmann_d
                         client.write_points(json_database_body)
                     except influxdb.exceptions.InfluxDBClientError:
                         logger.warning("Data was dropped - already written?")
-                    print(json_database_body)
+                        print(json_database_body)
         except TypeError:
             logger.warning("Error fetching data - fetched datapoint may be empty")
 

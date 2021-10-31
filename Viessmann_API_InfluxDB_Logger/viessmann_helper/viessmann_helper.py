@@ -198,7 +198,7 @@ def make_request(viessmann_api_file_path: str, url: str):
     logger.info("ViessmannAPI: Request Status-Code=" + str(response.status_code))
     if response.status_code == 200:
         response_json = response.json()
-        print(json.dumps(response_json, indent=4, sort_keys=True))
+        #print(json.dumps(response_json, indent=4, sort_keys=True))
         return response_json
     elif response.status_code == 401:
         logger.warning("Access token expired - creating a new one...")
