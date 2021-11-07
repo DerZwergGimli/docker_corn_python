@@ -1,0 +1,3 @@
+[submodule "Viessmann2Influx"]
+	path = Viessmann2Influx
+	url = https://github.com/DerZwergGimli/Viessmann2Influx.git
