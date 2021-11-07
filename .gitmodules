@@ -1,3 +1,6 @@
 [submodule "Viessmann_API_InfluxDB_Logger"]
 	path = Viessmann_API_InfluxDB_Logger
 	url = https://github.com/DerZwergGimli/Viessmann_API_InfluxDB_Logger.git
+[submodule "Viessmann2Influx"]
+	path = Viessmann2Influx
+	url = https://github.com/DerZwergGimli/Viessmann2Influx.git
